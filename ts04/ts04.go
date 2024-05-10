@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 )
-
+// TODO rectify for numbers more 10
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter a number 1 to 10: ")
